@@ -28,13 +28,14 @@ export default class Todo extends Component{
       <input ref = "title"></input>
       <button onClick = {this.addTodo}>Add</button>
   <hr/>
+  <hr/>
 
   <ul>
    {
     this.state.list.map((value,key) => {
       return (
         <li key = {key}>
-        {value}<button onClick = { (key) =>this.deleteTodo}>
+        {value}<button onClick = { (key) => this.deleteTodo}>
         delete
         </button></li>
       )
