@@ -35,7 +35,7 @@ export default class Todo extends Component{
     this.state.list.map((value,key) => {
       return (
         <li key = {key}>
-        {value}<button onClick = { (key) => this.deleteTodo}>
+        {value}<button onClick = { (key) => this.deleteTodo(key)}>
         delete
         </button></li>
       )
