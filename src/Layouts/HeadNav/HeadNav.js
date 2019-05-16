@@ -39,8 +39,8 @@ export default class HeadNav extends Component {
                             <Menu.Item key="article">
                                 <Link to="/home/article">Article</Link>
                             </Menu.Item>
-                            <Menu.Item key="resource" >
-                                <Link to="/home/resource">资源共享</Link>
+                            <Menu.Item key="todo" >
+                                <Link to="/TodoList/todo">Todo</Link>
                             </Menu.Item>
                         </Menu>
                     </div>

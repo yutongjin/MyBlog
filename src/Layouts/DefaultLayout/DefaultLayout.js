@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import HeadNav from '/Users/copper/.atom/react/base-syntax--assignment-solution/src/Layouts/HeadNav/HeadNav.js';
+import HeadNav from '/Users/copper/.atom/react/newBlog/src/Layouts/HeadNav/HeadNav.js';
 import './DefaultLayout.less';
 import AboutMe from '../../pages/AboutMe/AboutMe';
 import {Route} from 'react-router-dom';
